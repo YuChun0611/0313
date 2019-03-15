@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>B10630306</title>
+  <link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<style>
+		header {
+      background-color:dodgerblue;
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+    }
+
+    nav {
+      float: left;
+      width: 22%;
+      height: 300px;
+      background: tomato;
+      padding: 30px;
+      font-size: 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      background-color: #f1f1f1;
+    }
+
+    li a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+
+    li a.active {
+      background-color: #4166b5;
+      color: yellow;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #b54281;
+      color: yellow;
+    }
+
+    article {
+      float: left;
+      padding: 30px;
+      width: 70%;
+      background-color: orange;
+      height: 300px; 
+    }
+
+		section:after {
+  		content: "";
+  		display: table;
+  		clear: both;
+		}
+
+		footer {
+      background-color:mediumseagreen;
+      padding: 10px;
+      text-align: center;
+      color: white;
+      font-size: 20px;
+    }
+
+    @media only screen and (max-width:840px) {
+  /* For mobile phones: */
+    nav, article, section {
+    width:100%;
+    }
+
+    #customers tr:nth-child(even){background-color: #f2f2f2;}
+
+    #customers tr:hover {background-color: #ddd;}
+
+	</style>
+</head>
+<body>
+	<header>
+  <h2>Introduction</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <tr>
+        <th><li><a class="active" href="https://yuchun0611.github.io">simple introduction</a></li></th>
+      </tr>
+       <tr>
+        <th><li><a href="school.html">school</a></li></th>
+      </tr>
+       <tr>
+        <th><li><a href="photo.html">photo</a></li></th>
+      </tr>
+      
+      
+      
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Simple introduction</h1>
+    <p>My name is 莊淯淳<br>My student id is B10630306.<br>I come from Hsinchu<br>I am studying in the Department of Information Management.</p>
+  </article>
+
+
+
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+
+</body>
+</html>
